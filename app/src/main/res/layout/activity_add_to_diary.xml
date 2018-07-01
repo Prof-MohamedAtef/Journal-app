@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="prof.mo.ed.journal.prof.mo.ed.journal.AddToDiary">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ProfileImage_header_Post"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/news" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/txtProfileOwner_Posts"
+                android:textColor="@color/primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Empty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+        <TextView
+            android:textColor="@color/primary_dark"
+            android:textStyle="bold"
+            android:gravity="left|center_vertical"
+            android:id="@+id/txt_status"
+            android:textSize="12sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_status"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/txt_shareideas"
+            android:hint="@string/Post_hint"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/primary"
+            android:lines="14"
+            android:minLines="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="14"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:scrollbars="vertical" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/img_happy"
+                    android:layout_width="60dp"
+                    android:src="@drawable/news"
+                    android:layout_height="60dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/img_sad"
+                    android:src="@drawable/news"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/img_angry"
+                    android:src="@drawable/news"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/optimistic"
+                    android:src="@drawable/news"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/img_crying"
+                    android:src="@drawable/news"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

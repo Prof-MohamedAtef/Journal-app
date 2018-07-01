@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/primary_dark"
+    tools:context="prof.mo.ed.journal.prof.mo.ed.journal.DiaryActivity"
+    app:headerLayout="@layout/header_navigation"
+    app:menu="@menu/drawer"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true">
+    <!--android:background="@color/primary_dark"-->
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/primary_dark"
+        tools:context="prof.mo.ed.journal.prof.mo.ed.journal.DiaryActivity">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/tool_bar"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="MergeRootFrame"
+                android:background="@color/primary_dark"
+                android:id="@+id/container_frame">
+            </FrameLayout>
+            <!--android:background="@color/primary"-->
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linlaHeaderProgress"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/header_navigation"
+            app:menu="@menu/drawer" />
+        <!--android:background="@drawable/russian_background"-->
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

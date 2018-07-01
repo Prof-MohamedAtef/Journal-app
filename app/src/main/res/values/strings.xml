@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Journal</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_signUp">Sign Up</string>
+    <string name="loading">Loading</string>
+    <string name="noconnection">No internet connection!</string>
+    <string name="tap2retry">Tap to retry!</string>
+    <string name="news">News</string>
+    <string name="logout">Log out</string>
+    <string name="welcome">Welcome</string>
+    <string name="EditPost">Edit</string>
+    <string name="RemovePost">Remove</string>
+    <string name="addpoststitle">Add to Diary</string>
+    <string name="modifyPoststitle">Modify Entry</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="add_thoughts">Add Thoughts and Feelings</string>
+    <string name="Post_hint">Share your Thoughts and Feelings!</string>
+    <string name="angry_face">https://cldup.com/lXDo9T2MN1.jpg</string>
+    <string name="happy_face">https://cldup.com/VGP8qlczvr.jpg</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_forgot_password">Forgot password</string>
+    <string name="email_signing">Start of the line\.End OF The Line\.Min 3 character\.Max 15\.Match list a-z, 0-9</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="passwordsinging">Password too short, enter minimum 6 characters!</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="btn_link_to_register">Do Not have Account? Registered now!</string>
+    <string name="sad_face">https://cldup.com/ITG7Q656Ta.jpg</string>
+    <string name="optimistic_face">https://cldup.com/S9fipQ0RjO.jpg</string>
+    <string name="crying_face">https://cldup.com/w67HXljXOL.jpg</string>
+    <!---->
+    <string name="facebook_app_id">162164734646634</string>
+    <string name="fb_login_protocol_scheme">fb162164734646634</string>
+
+</resources>
